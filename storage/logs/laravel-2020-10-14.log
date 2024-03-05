@@ -1,0 +1,4 @@
+[2020-10-14 22:12:41] local.ERROR: syntax error, unexpected '$mail' (T_VARIABLE) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 4): syntax error, unexpected '$mail' (T_VARIABLE) at C:\\xampp\\htdocs\\uholu\\app\\payments.php:31)
+[stacktrace]
+#0 {main}
+"} 

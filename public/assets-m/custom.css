@@ -1,0 +1,443 @@
+.containeri {
+    display: block;
+    position: relative;
+    /* padding-left: 35px;
+    margin-bottom: 12px; */
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default radio button */
+  .containeri input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom radio button */
+  .checkmarki {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-top:23px;
+    margin-left:2px;
+    border:1px solid #979797
+  }
+
+  /* On mouse-over, add a grey background color */
+  .containeri:hover input ~ .checkmarki {
+    background-color: #ccc;
+  }
+
+  /* When the radio button is checked, add a blue background */
+  .containeri input:checked ~ .checkmarki {
+    background-color: #2196F3;
+  }
+
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmarki:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the indicator (dot/circle) when checked */
+  .containeri input:checked ~ .checkmarki:after {
+    display: block;
+  }
+
+  /* Style the indicator (dot/circle) */
+  .containeri .checkmarki:after {
+    top: 5px;
+    left: 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boxi {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.packdiv {
+    width:100%;
+    height:70px;
+    border:0.5px solid #C2C2C2;
+    margin-bottom:15px;
+    box-shadow: 1px 2px 6px 1px #181818;
+    background-color: #F9F9F9;
+    padding-top:7px;
+
+}
+
+.onButton{
+    color:white !important;
+}
+.activeNav{
+    background-color: #FCD206;
+}
+
+.activedivi {
+    width:100%;
+    height:70px;
+    border:2px solid #FCD206;
+    margin-bottom:15px;
+    box-shadow: 1px 2px 6px 1px #FCD206;
+    background-color: #F9F9F9;
+    padding-top:7px;
+
+}
+
+.packdiv2{
+    border:0.5px solid #C2C2C2;
+    box-shadow: 3px 3px 10px 1px #181818;
+    background-color: #F2F2F2;
+    width:100%;
+    height:430px;
+    margin-top:100px;
+
+
+}
+
+.blacken{
+    color:black;
+}
+
+
+.radiodiv{
+
+    height:100%;
+    width:100px;
+    border-right:  1px solid #979797;
+
+}
+
+.lefty{
+
+    height:100%;
+    margin-left:0px;
+}
+
+
+
+.righty{
+
+    height:100%;
+    margin-left:10px;
+
+}
+
+.upy{
+
+    width:100%;
+    height:30px;
+}
+.upy p {
+    font-size:14px;
+    color:#0A0C12;
+    opacity:0.5
+}
+
+.downy{
+
+    width:100%;
+    height:40px;
+}
+
+
+
+.innerBefore{
+    background-color: #EEEEEE;
+    width:10px;
+    height:10px;
+    border-radius:5px;
+    margin-top:4px;
+    margin-left:4px
+}
+
+.innerAfter{
+    background-color: #FCD206;
+    height:10px;
+    border:0.5px solid #9F9F9F;
+    border-radius:5px;
+    margin-top:4px;
+    margin-left:4px
+}
+
+.radioOutter{
+    width:20px;
+    height:20px;
+    border-radius:10px;
+    background-color: #EEEEEE;
+    border:1px solid #9F9F9F
+}
+
+.checkoutInner{
+    width:80%;
+    height:100px;
+    margin:auto;
+    margin-top:13px;
+    background-color:white;
+    padding:5px;
+    /* box-shadow: 1px 2px 6px 1px #181818; */
+}
+
+.checkoutsum{
+    margin:auto;
+    margin-top:40px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  display:none;
+  /* opacity: 0; */
+  z-index:1;
+
+}
+/* .overlay:target {
+  visibility: visible;
+  opacity: 1;
+} */
+
+.popupi {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popupi h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popupi .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popupi .close:hover {
+  color: #06D85F;
+}
+.popupi .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popupi{
+    width: 70%;
+  }
+}
+
+a.selected {
+  background-color:#1F75CC;
+  color:white;
+  z-index:100;
+}
+
+.messagepop {
+  background-color:#FFFFFF;
+  border:1px solid #999999;
+  cursor:default;
+  display:none;
+  margin-top: 15px;
+  position:absolute;
+  text-align:left;
+  width:394px;
+  z-index:50;
+  padding: 25px 25px 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 3px;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+
+.messagepop p, .messagepop.div {
+  border-bottom: 1px solid #EFEFEF;
+  margin: 8px 0;
+  padding-bottom: 8px;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+
+
+
+
+.tog .switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 18px;
+  }
+
+  /* Hide default HTML checkbox */
+  .tog .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  /* The slider */
+  .tog .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .tog .slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .tog input:checked + .slider {
+    background-color: #2196F3;
+  }
+
+  .tog input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+
+  .tog input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+  /* Rounded sliders */
+  .tog  .slider.round {
+    border-radius: 34px;
+  }
+
+  .tog .slider.round:before {
+    border-radius: 50%;
+  }

@@ -1,0 +1,20 @@
+<svg width="70" height="73" viewBox="0 0 70 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f)">
+<ellipse cx="34.5905" cy="56.5667" rx="20.5905" ry="1.56667" fill="black" fill-opacity="0.46"/>
+</g>
+<g clip-path="url(#clip0)">
+<path d="M40.375 12.7292C39.294 12.7292 38.4167 11.8518 38.4167 10.7708V7.83332H30.5833V10.7708C30.5833 11.8518 29.706 12.7292 28.625 12.7292C27.544 12.7292 26.6667 11.8518 26.6667 10.7708V7.83332C26.6667 5.67328 28.4233 3.91666 30.5833 3.91666H38.4167C40.5767 3.91666 42.3334 5.67328 42.3334 7.83332V10.7708C42.3334 11.8518 41.456 12.7292 40.375 12.7292Z" fill="#FFD226"/>
+<path d="M35.8904 30.1192C35.5379 30.2563 35.0288 30.3542 34.5 30.3542C33.9713 30.3542 33.4621 30.2563 32.9921 30.08L11 22.7559V37.6979C11 40.6746 13.4088 43.0834 16.3854 43.0834H52.6146C55.5913 43.0834 58 40.6746 58 37.6979V22.7559L35.8904 30.1192Z" fill="#E3BC00"/>
+<path d="M58 15.1771V19.6617L34.97 27.3383C34.8133 27.3971 34.6567 27.4167 34.5 27.4167C34.3433 27.4167 34.1867 27.3971 34.03 27.3383L11 19.6617V15.1771C11 12.2004 13.4088 9.79166 16.3854 9.79166H52.6146C55.5913 9.79166 58 12.2004 58 15.1771V15.1771Z" fill="#FFD226"/>
+</g>
+<defs>
+<filter id="filter0_f" x="0" y="41" width="69.181" height="31.1333" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="7" result="effect1_foregroundBlur"/>
+</filter>
+<clipPath id="clip0">
+<rect width="47" height="47" fill="white" transform="translate(11)"/>
+</clipPath>
+</defs>
+</svg>

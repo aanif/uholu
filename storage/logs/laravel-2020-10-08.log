@@ -1,0 +1,198 @@
+[2020-10-08 22:16:08] local.ERROR: Unable to write output. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Unable to write output. at C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(166): Symfony\\Component\\Console\\Output\\StreamOutput->doWrite('Laravel Framewo...', false)
+#1 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\Descriptor.php(70): Symfony\\Component\\Console\\Output\\Output->write(Array, false, 1)
+#2 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\TextDescriptor.php(257): Symfony\\Component\\Console\\Descriptor\\Descriptor->write('Laravel Framewo...', true)
+#3 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\TextDescriptor.php(191): Symfony\\Component\\Console\\Descriptor\\TextDescriptor->writeText('Laravel Framewo...', Array)
+#4 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\Descriptor.php(55): Symfony\\Component\\Console\\Descriptor\\TextDescriptor->describeApplication(Object(Illuminate\\Console\\Application), Array)
+#5 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Helper\\DescriptorHelper.php(67): Symfony\\Component\\Console\\Descriptor\\Descriptor->describe(Object(Symfony\\Component\\Console\\Output\\ConsoleOutput), Object(Illuminate\\Console\\Application), Array)
+#6 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Command\\ListCommand.php(75): Symfony\\Component\\Console\\Helper\\DescriptorHelper->describe(Object(Symfony\\Component\\Console\\Output\\ConsoleOutput), Object(Illuminate\\Console\\Application), Array)
+#7 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Command\\Command.php(255): Symfony\\Component\\Console\\Command\\ListCommand->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(1001): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(271): Symfony\\Component\\Console\\Application->doRunCommand(Object(Symfony\\Component\\Console\\Command\\ListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\xampp\\htdocs\\uholu\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 C:\\xampp\\htdocs\\uholu\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2020-10-08 22:16:08] local.ERROR: Unable to write output. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Unable to write output. at C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(166): Symfony\\Component\\Console\\Output\\StreamOutput->doWrite('Laravel Framewo...', false)
+#1 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\Descriptor.php(70): Symfony\\Component\\Console\\Output\\Output->write(Array, false, 1)
+#2 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\TextDescriptor.php(257): Symfony\\Component\\Console\\Descriptor\\Descriptor->write('Laravel Framewo...', true)
+#3 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\TextDescriptor.php(191): Symfony\\Component\\Console\\Descriptor\\TextDescriptor->writeText('Laravel Framewo...', Array)
+#4 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\Descriptor.php(55): Symfony\\Component\\Console\\Descriptor\\TextDescriptor->describeApplication(Object(Illuminate\\Console\\Application), Array)
+#5 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Helper\\DescriptorHelper.php(67): Symfony\\Component\\Console\\Descriptor\\Descriptor->describe(Object(Symfony\\Component\\Console\\Output\\ConsoleOutput), Object(Illuminate\\Console\\Application), Array)
+#6 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Command\\ListCommand.php(75): Symfony\\Component\\Console\\Helper\\DescriptorHelper->describe(Object(Symfony\\Component\\Console\\Output\\ConsoleOutput), Object(Illuminate\\Console\\Application), Array)
+#7 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Command\\Command.php(255): Symfony\\Component\\Console\\Command\\ListCommand->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(1001): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(271): Symfony\\Component\\Console\\Application->doRunCommand(Object(Symfony\\Component\\Console\\Command\\ListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\xampp\\htdocs\\uholu\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 C:\\xampp\\htdocs\\uholu\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2020-10-08 22:16:08] local.ERROR: Unable to write output. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Unable to write output. at C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(166): Symfony\\Component\\Console\\Output\\StreamOutput->doWrite('Laravel Framewo...', false)
+#1 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\Descriptor.php(70): Symfony\\Component\\Console\\Output\\Output->write(Array, false, 1)
+#2 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\TextDescriptor.php(257): Symfony\\Component\\Console\\Descriptor\\Descriptor->write('Laravel Framewo...', true)
+#3 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\TextDescriptor.php(191): Symfony\\Component\\Console\\Descriptor\\TextDescriptor->writeText('Laravel Framewo...', Array)
+#4 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\Descriptor.php(55): Symfony\\Component\\Console\\Descriptor\\TextDescriptor->describeApplication(Object(Illuminate\\Console\\Application), Array)
+#5 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Helper\\DescriptorHelper.php(67): Symfony\\Component\\Console\\Descriptor\\Descriptor->describe(Object(Symfony\\Component\\Console\\Output\\ConsoleOutput), Object(Illuminate\\Console\\Application), Array)
+#6 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Command\\ListCommand.php(75): Symfony\\Component\\Console\\Helper\\DescriptorHelper->describe(Object(Symfony\\Component\\Console\\Output\\ConsoleOutput), Object(Illuminate\\Console\\Application), Array)
+#7 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Command\\Command.php(255): Symfony\\Component\\Console\\Command\\ListCommand->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(1001): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(271): Symfony\\Component\\Console\\Application->doRunCommand(Object(Symfony\\Component\\Console\\Command\\ListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\xampp\\htdocs\\uholu\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 C:\\xampp\\htdocs\\uholu\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2020-10-08 22:16:08] local.ERROR: Unable to write output. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Unable to write output. at C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(166): Symfony\\Component\\Console\\Output\\StreamOutput->doWrite('Laravel Framewo...', false)
+#1 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\Descriptor.php(70): Symfony\\Component\\Console\\Output\\Output->write(Array, false, 1)
+#2 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\TextDescriptor.php(257): Symfony\\Component\\Console\\Descriptor\\Descriptor->write('Laravel Framewo...', true)
+#3 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\TextDescriptor.php(191): Symfony\\Component\\Console\\Descriptor\\TextDescriptor->writeText('Laravel Framewo...', Array)
+#4 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Descriptor\\Descriptor.php(55): Symfony\\Component\\Console\\Descriptor\\TextDescriptor->describeApplication(Object(Illuminate\\Console\\Application), Array)
+#5 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Helper\\DescriptorHelper.php(67): Symfony\\Component\\Console\\Descriptor\\Descriptor->describe(Object(Symfony\\Component\\Console\\Output\\ConsoleOutput), Object(Illuminate\\Console\\Application), Array)
+#6 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Command\\ListCommand.php(75): Symfony\\Component\\Console\\Helper\\DescriptorHelper->describe(Object(Symfony\\Component\\Console\\Output\\ConsoleOutput), Object(Illuminate\\Console\\Application), Array)
+#7 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Command\\Command.php(255): Symfony\\Component\\Console\\Command\\ListCommand->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(1001): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(271): Symfony\\Component\\Console\\Application->doRunCommand(Object(Symfony\\Component\\Console\\Command\\ListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\xampp\\htdocs\\uholu\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 C:\\xampp\\htdocs\\uholu\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2020-10-08 22:16:08] local.ERROR: Uncaught Symfony\Component\Console\Exception\RuntimeException: Unable to write output. in C:\xampp\htdocs\uholu\vendor\symfony\console\Output\StreamOutput.php:79
+Stack trace:
+#0 C:\xampp\htdocs\uholu\vendor\symfony\console\Output\Output.php(166): Symfony\Component\Console\Output\StreamOutput->doWrite('\r\n', true)
+#1 C:\xampp\htdocs\uholu\vendor\symfony\console\Output\Output.php(132): Symfony\Component\Console\Output\Output->write(Array, true, 16)
+#2 C:\xampp\htdocs\uholu\vendor\symfony\console\Application.php(798): Symfony\Component\Console\Output\Output->writeln('', 16)
+#3 C:\xampp\htdocs\uholu\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(507): Symfony\Component\Console\Application->renderException(Object(Symfony\Component\Console\Exception\RuntimeException), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\uholu\vendor\nunomaduro\collision\src\Adapters\Laravel\ExceptionHandler.php(77): Illuminate\Foundation\Exceptions\Handler->renderForConsole(Object(S {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught Symfony\\Component\\Console\\Exception\\RuntimeException: Unable to write output. in C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79
+Stack trace:
+#0 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(166): Symfony\\Component\\Console\\Output\\StreamOutput->doWrite('\\
+', true)
+#1 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(132): Symfony\\Component\\Console\\Output\\Output->write(Array, true, 16)
+#2 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(798): Symfony\\Component\\Console\\Output\\Output->writeln('', 16)
+#3 C:\\xampp\\htdocs\\uholu\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(507): Symfony\\Component\\Console\\Application->renderException(Object(Symfony\\Component\\Console\\Exception\\RuntimeException), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\uholu\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(77): Illuminate\\Foundation\\Exceptions\\Handler->renderForConsole(Object(S at C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79)
+[stacktrace]
+#0 {main}
+"} 
+[2020-10-08 22:16:08] local.ERROR: Uncaught Symfony\Component\Console\Exception\RuntimeException: Unable to write output. in C:\xampp\htdocs\uholu\vendor\symfony\console\Output\StreamOutput.php:79
+Stack trace:
+#0 C:\xampp\htdocs\uholu\vendor\symfony\console\Output\Output.php(166): Symfony\Component\Console\Output\StreamOutput->doWrite('\r\n', true)
+#1 C:\xampp\htdocs\uholu\vendor\symfony\console\Output\Output.php(132): Symfony\Component\Console\Output\Output->write(Array, true, 16)
+#2 C:\xampp\htdocs\uholu\vendor\symfony\console\Application.php(798): Symfony\Component\Console\Output\Output->writeln('', 16)
+#3 C:\xampp\htdocs\uholu\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(507): Symfony\Component\Console\Application->renderException(Object(Symfony\Component\Console\Exception\RuntimeException), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\uholu\vendor\nunomaduro\collision\src\Adapters\Laravel\ExceptionHandler.php(77): Illuminate\Foundation\Exceptions\Handler->renderForConsole(Object(S {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught Symfony\\Component\\Console\\Exception\\RuntimeException: Unable to write output. in C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79
+Stack trace:
+#0 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(166): Symfony\\Component\\Console\\Output\\StreamOutput->doWrite('\\
+', true)
+#1 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(132): Symfony\\Component\\Console\\Output\\Output->write(Array, true, 16)
+#2 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(798): Symfony\\Component\\Console\\Output\\Output->writeln('', 16)
+#3 C:\\xampp\\htdocs\\uholu\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(507): Symfony\\Component\\Console\\Application->renderException(Object(Symfony\\Component\\Console\\Exception\\RuntimeException), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\uholu\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(77): Illuminate\\Foundation\\Exceptions\\Handler->renderForConsole(Object(S at C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79)
+[stacktrace]
+#0 {main}
+"} 
+[2020-10-08 22:16:08] local.ERROR: Uncaught Symfony\Component\Console\Exception\RuntimeException: Unable to write output. in C:\xampp\htdocs\uholu\vendor\symfony\console\Output\StreamOutput.php:79
+Stack trace:
+#0 C:\xampp\htdocs\uholu\vendor\symfony\console\Output\Output.php(166): Symfony\Component\Console\Output\StreamOutput->doWrite('\r\n', true)
+#1 C:\xampp\htdocs\uholu\vendor\symfony\console\Output\Output.php(132): Symfony\Component\Console\Output\Output->write(Array, true, 16)
+#2 C:\xampp\htdocs\uholu\vendor\symfony\console\Application.php(798): Symfony\Component\Console\Output\Output->writeln('', 16)
+#3 C:\xampp\htdocs\uholu\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(507): Symfony\Component\Console\Application->renderException(Object(Symfony\Component\Console\Exception\RuntimeException), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\uholu\vendor\nunomaduro\collision\src\Adapters\Laravel\ExceptionHandler.php(77): Illuminate\Foundation\Exceptions\Handler->renderForConsole(Object(S {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught Symfony\\Component\\Console\\Exception\\RuntimeException: Unable to write output. in C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79
+Stack trace:
+#0 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(166): Symfony\\Component\\Console\\Output\\StreamOutput->doWrite('\\
+', true)
+#1 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(132): Symfony\\Component\\Console\\Output\\Output->write(Array, true, 16)
+#2 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(798): Symfony\\Component\\Console\\Output\\Output->writeln('', 16)
+#3 C:\\xampp\\htdocs\\uholu\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(507): Symfony\\Component\\Console\\Application->renderException(Object(Symfony\\Component\\Console\\Exception\\RuntimeException), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\uholu\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(77): Illuminate\\Foundation\\Exceptions\\Handler->renderForConsole(Object(S at C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79)
+[stacktrace]
+#0 {main}
+"} 
+[2020-10-08 22:16:08] local.ERROR: Uncaught Symfony\Component\Console\Exception\RuntimeException: Unable to write output. in C:\xampp\htdocs\uholu\vendor\symfony\console\Output\StreamOutput.php:79
+Stack trace:
+#0 C:\xampp\htdocs\uholu\vendor\symfony\console\Output\Output.php(166): Symfony\Component\Console\Output\StreamOutput->doWrite('\r\n', true)
+#1 C:\xampp\htdocs\uholu\vendor\symfony\console\Output\Output.php(132): Symfony\Component\Console\Output\Output->write(Array, true, 16)
+#2 C:\xampp\htdocs\uholu\vendor\symfony\console\Application.php(798): Symfony\Component\Console\Output\Output->writeln('', 16)
+#3 C:\xampp\htdocs\uholu\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(507): Symfony\Component\Console\Application->renderException(Object(Symfony\Component\Console\Exception\RuntimeException), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\uholu\vendor\nunomaduro\collision\src\Adapters\Laravel\ExceptionHandler.php(77): Illuminate\Foundation\Exceptions\Handler->renderForConsole(Object(S {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught Symfony\\Component\\Console\\Exception\\RuntimeException: Unable to write output. in C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79
+Stack trace:
+#0 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(166): Symfony\\Component\\Console\\Output\\StreamOutput->doWrite('\\
+', true)
+#1 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(132): Symfony\\Component\\Console\\Output\\Output->write(Array, true, 16)
+#2 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(798): Symfony\\Component\\Console\\Output\\Output->writeln('', 16)
+#3 C:\\xampp\\htdocs\\uholu\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(507): Symfony\\Component\\Console\\Application->renderException(Object(Symfony\\Component\\Console\\Exception\\RuntimeException), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\uholu\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(77): Illuminate\\Foundation\\Exceptions\\Handler->renderForConsole(Object(S at C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79)
+[stacktrace]
+#0 {main}
+"} 
+[2020-10-08 22:16:08] local.ERROR: Uncaught Symfony\Component\Console\Exception\RuntimeException: Unable to write output. in C:\xampp\htdocs\uholu\vendor\symfony\console\Output\StreamOutput.php:79
+Stack trace:
+#0 C:\xampp\htdocs\uholu\vendor\symfony\console\Output\Output.php(166): Symfony\Component\Console\Output\StreamOutput->doWrite('\r\n', true)
+#1 C:\xampp\htdocs\uholu\vendor\symfony\console\Output\Output.php(132): Symfony\Component\Console\Output\Output->write(Array, true, 16)
+#2 C:\xampp\htdocs\uholu\vendor\symfony\console\Application.php(798): Symfony\Component\Console\Output\Output->writeln('', 16)
+#3 C:\xampp\htdocs\uholu\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(507): Symfony\Component\Console\Application->renderException(Object(Symfony\Component\Console\Exception\RuntimeException), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\uholu\vendor\nunomaduro\collision\src\Adapters\Laravel\ExceptionHandler.php(77): Illuminate\Foundation\Exceptions\Handler->renderForConsole(Object(S {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught Symfony\\Component\\Console\\Exception\\RuntimeException: Unable to write output. in C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79
+Stack trace:
+#0 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(166): Symfony\\Component\\Console\\Output\\StreamOutput->doWrite('\\
+', true)
+#1 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(132): Symfony\\Component\\Console\\Output\\Output->write(Array, true, 16)
+#2 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(798): Symfony\\Component\\Console\\Output\\Output->writeln('', 16)
+#3 C:\\xampp\\htdocs\\uholu\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(507): Symfony\\Component\\Console\\Application->renderException(Object(Symfony\\Component\\Console\\Exception\\RuntimeException), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\uholu\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(77): Illuminate\\Foundation\\Exceptions\\Handler->renderForConsole(Object(S at C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79)
+[stacktrace]
+#0 {main}
+"} 
+[2020-10-08 22:16:08] local.ERROR: Uncaught Symfony\Component\Console\Exception\RuntimeException: Unable to write output. in C:\xampp\htdocs\uholu\vendor\symfony\console\Output\StreamOutput.php:79
+Stack trace:
+#0 C:\xampp\htdocs\uholu\vendor\symfony\console\Output\Output.php(166): Symfony\Component\Console\Output\StreamOutput->doWrite('\r\n', true)
+#1 C:\xampp\htdocs\uholu\vendor\symfony\console\Output\Output.php(132): Symfony\Component\Console\Output\Output->write(Array, true, 16)
+#2 C:\xampp\htdocs\uholu\vendor\symfony\console\Application.php(798): Symfony\Component\Console\Output\Output->writeln('', 16)
+#3 C:\xampp\htdocs\uholu\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(507): Symfony\Component\Console\Application->renderException(Object(Symfony\Component\Console\Exception\RuntimeException), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\uholu\vendor\nunomaduro\collision\src\Adapters\Laravel\ExceptionHandler.php(77): Illuminate\Foundation\Exceptions\Handler->renderForConsole(Object(S {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught Symfony\\Component\\Console\\Exception\\RuntimeException: Unable to write output. in C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79
+Stack trace:
+#0 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(166): Symfony\\Component\\Console\\Output\\StreamOutput->doWrite('\\
+', true)
+#1 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(132): Symfony\\Component\\Console\\Output\\Output->write(Array, true, 16)
+#2 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(798): Symfony\\Component\\Console\\Output\\Output->writeln('', 16)
+#3 C:\\xampp\\htdocs\\uholu\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(507): Symfony\\Component\\Console\\Application->renderException(Object(Symfony\\Component\\Console\\Exception\\RuntimeException), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\uholu\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(77): Illuminate\\Foundation\\Exceptions\\Handler->renderForConsole(Object(S at C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79)
+[stacktrace]
+#0 {main}
+"} 
+[2020-10-08 22:16:08] local.ERROR: Uncaught Symfony\Component\Console\Exception\RuntimeException: Unable to write output. in C:\xampp\htdocs\uholu\vendor\symfony\console\Output\StreamOutput.php:79
+Stack trace:
+#0 C:\xampp\htdocs\uholu\vendor\symfony\console\Output\Output.php(166): Symfony\Component\Console\Output\StreamOutput->doWrite('\r\n', true)
+#1 C:\xampp\htdocs\uholu\vendor\symfony\console\Output\Output.php(132): Symfony\Component\Console\Output\Output->write(Array, true, 16)
+#2 C:\xampp\htdocs\uholu\vendor\symfony\console\Application.php(798): Symfony\Component\Console\Output\Output->writeln('', 16)
+#3 C:\xampp\htdocs\uholu\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php(507): Symfony\Component\Console\Application->renderException(Object(Symfony\Component\Console\Exception\RuntimeException), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\uholu\vendor\nunomaduro\collision\src\Adapters\Laravel\ExceptionHandler.php(77): Illuminate\Foundation\Exceptions\Handler->renderForConsole(Object(S {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught Symfony\\Component\\Console\\Exception\\RuntimeException: Unable to write output. in C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79
+Stack trace:
+#0 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(166): Symfony\\Component\\Console\\Output\\StreamOutput->doWrite('\\
+', true)
+#1 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\Output.php(132): Symfony\\Component\\Console\\Output\\Output->write(Array, true, 16)
+#2 C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Application.php(798): Symfony\\Component\\Console\\Output\\Output->writeln('', 16)
+#3 C:\\xampp\\htdocs\\uholu\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(507): Symfony\\Component\\Console\\Application->renderException(Object(Symfony\\Component\\Console\\Exception\\RuntimeException), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\uholu\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(77): Illuminate\\Foundation\\Exceptions\\Handler->renderForConsole(Object(S at C:\\xampp\\htdocs\\uholu\\vendor\\symfony\\console\\Output\\StreamOutput.php:79)
+[stacktrace]
+#0 {main}
+"} 
